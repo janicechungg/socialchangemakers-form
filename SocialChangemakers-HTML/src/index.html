@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css"> 
+    <title>Social Changemakers Form</title>
+</head>
+
+<body>
+
+    <div class = "body">
+    <form class = "general-context-container">
+        <h2 class = general-context-housing-hygiene-title>General Context</h2>
+        <p class = "question" id = "general-container">
+            1. What is your name?
+            <input type = "text" id = "personal-info-container" placeholder = "Enter name">
+        </p>
+        <p class = "question" id = "general-container">
+            2. Add contact information
+            <input type = "text" id = "personal-info-container" placeholder = "Number, email, etc...">
+        </p>
+        <p class = "question" id = "citizenship-container">
+           3. Citizenship Status
+           <input type = "radio" id = "citizenship-container" value = "citizen" name = "citizenship-status">Citizen
+           <input type = "radio" id = "citizenship-container" value = "noncitizen" name = "citizenship-status">Noncitizen
+        </p>
+        <p class = "question" id = "general-container">
+            <label for = "sex">4. Sex</label>
+            <select name = "sex" id = "sex">
+                <option value = "choose">Choose one</option>
+                <option value = "male">Male</option>
+                <option value = "female">Female</option>
+                <option value = "nonbindary">Nonbinary</option>
+                <option value = "other">Other</option>
+            </select>
+        </p>
+        <p class = "question" id = "general-container">
+           5.  Race
+           <input type = "checkbox" id = "race-container" value = "Asian-PI" name = "race">Asian or Pacific Islander
+           <input type = "checkbox" id = "race-container" value = "Black" name = "race">Black or African American
+           <input type = "checkbox" id = "race-container" value = "Hispanic-Latino" name = "race">Hispanic or Latinx
+           <input type = "checkbox" id = "race-container" value = "Native-American" name = "race">Native American
+           <input type = "checkbox" id = "race-container" value = "White" name = "race">White or Caucasian
+           <input type = "checkbox" id = "race-container" value = "other" name = "race">Other
+        </p>
+        <p class = "question" id = "general-container">
+            6. Where do you sleep/get your necessities?
+            <input type = "text" id = "necessities-container" placeholder = "Enter Description">
+        </p>
+        <p class = "question" id = "general-container">
+           7. Have you been involved with any agencies in the past? If so, what are they?
+           <input type = "radio" id = "previous-agency-container" value = "no" name = "agency">No
+           <input type = "radio" id = "previous-agency-container" value = "yes" name = "agency">Yes
+           <input type = "input" id = "previous-agency-container" name = "agency" placeholder = "Describe them">
+        </p>
+        <p class = "question" id = "general-container">
+            8. Do you have any concerns about your living situation (housing conditions, safety, costs, etc?)
+            <input type = "radio" id = "living-situation-container" value = "no" name = "living-situation">No
+            <input type = "radio" id = "living-situation-container" value = "yes" name = "living-situation">Yes
+            <input type = "input" id = "living-situation-container" name = "housing" placeholder = "Describe them">
+        </p>
+        <p class = "question" id = "general-container">
+            9. Do you have an ID?
+            <input type = "radio" id = "has-id" value = "No" name = "has-id">No
+            <input type = "radio" id = "has-id" value = "Yes" name = "has-id">Yes
+        </p>
+    
+    <input type = "submit" id  = "submit-button">
+    </div>
+</form>
+    
+
+</body>
+</html>
